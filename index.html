@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Simon Says</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Simon Says</h1>
+    
+    <div class="scoreboard">
+        <p>Уровень: <span id="level">1</span></p>
+        <p>Рекорд: <span id="highScore">0</span></p>
+    </div>
+
+    <div class="controls">
+        <div id="status">Нажми "Старт", чтобы начать</div>
+        <button id="startBtn">Старт</button>
+    </div>
+
+    <div class="board locked" id="board">
+        <div class="color-btn" id="btn0" data-id="0" style="background-color: #ff4c4c;"></div>
+        <div class="color-btn" id="btn1" data-id="1" style="background-color: #4c4cff;"></div>
+        <div class="color-btn" id="btn2" data-id="2" style="background-color: #4cff4c;"></div>
+        <div class="color-btn" id="btn3" data-id="3" style="background-color: #ffff4c;"></div>
+    </div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
